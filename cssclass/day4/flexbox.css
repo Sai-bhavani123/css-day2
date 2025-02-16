@@ -1,0 +1,94 @@
+.navbar{
+display: flex;
+justify-content: space-around;
+font-size:20px;
+}
+#navbar-h1{
+    /* color:pink */
+}
+
+#navbar_links
+{
+    display: flex;
+align-items: center;
+column-gap: 30px;
+
+
+}
+#navbar_links > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+
+
+}
+
+#login{
+    border-radius: 5px;
+    color:rgb(79, 7, 225);
+    background-color: skyblue;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 4px 4px;
+    text-decoration: none;
+
+
+}
+.landing_page{
+    display: flex;
+    justify-content: center;
+  
+
+}
+.landing_page > .landing_text{
+   
+    width:39%;
+}
+
+.landing_page > img{
+    width :30%;
+}
+.landing_text > h1{
+    font-size: 55px;
+    }
+    .landing_text > p {
+        font-size: 25px;
+    }
+
+.button {
+    display: flex;
+    column-gap: 20px;
+    box-shadow: 2px;
+}
+.landing_text > .button > p{
+
+padding: 5px 20px;
+margin: 10px;
+border-radius: 20px;
+box-shadow: 4px 4px 8px black;
+text-transform: capitalize;
+}
+
+#3
+.started{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.started >h1{
+    font-size: 45px;
+    align-items:center;
+    text-align: center;
+}
+.p{
+
+}
+ .started> a{
+    padding: 5px 20px;
+margin: 10px;
+border-radius: 20px;
+box-shadow: 4px 4px 8px black;
+text-transform: capitalize;
+text-decoration: none;
+}
